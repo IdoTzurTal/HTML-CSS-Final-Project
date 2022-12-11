@@ -1,0 +1,315 @@
+body {
+    margin: 0%;
+}
+
+.background {
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+}
+
+.topnav {
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+
+}
+
+#muso {
+    width: 22vw;
+}
+
+#musoimg {
+    width: 20vw;
+    padding-left: 7vw;
+    padding-top: 1vh;
+}
+
+#search {
+    background-color: white;
+    color: black;
+    width: 18%;
+    height: 60%;
+    margin-left: 15%;
+    margin-right: 3vw;
+    border-radius: 2vw;
+    font-size: x-large;
+    padding-left: 1vw;
+}
+
+#signupman {
+    padding-top: 1vh;
+    background-image: url("C:\Users\idore\Downloads\Layer 4.png");
+    width: 4vw;
+    height: 8vh;
+}
+
+.topnav a {
+    color: wheat;
+    text-align: center;
+    padding: 2%;
+    font-size: x-large;
+    text-decoration: none;
+
+}
+
+.topnav a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+#content {
+    width: 100vw;
+    height: 160vh;
+    background-color: white;
+    padding-top: 20vh;
+}
+
+.firstrow {
+    display: flex;
+    justify-content: space-around;
+    height: 64vh;
+    padding-top: 4vh;
+}
+
+.firstrow>* {
+    background-color: white;
+    padding: 10%;
+}
+
+#firstrowtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0;
+    font-size: xx-large;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+
+}
+
+#guitar1 {
+    color: black;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 2vw;
+    padding-left: 5vw;
+}
+
+#guitar2 {
+    color: black;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10vw;
+}
+
+#guitar3 {
+    color: black;
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 8vw;
+    padding-right: 2vw;
+}
+
+.firstwrite {
+    display: flex;
+    justify-content: space-evenly;
+    height: 16vh;
+}
+
+.prodetails {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prodetails>* {
+    width: 20vw;
+}
+
+#product1 {
+    background-image: url("https://andertons-productimages.imgix.net/375289-ES-335%20Figured%20Cherry%20Front.jpg?auto=compress&bg=ffffff");
+    background-size: cover;
+    background-position: center;
+}
+
+#gibson {
+    font-style: italic;
+    font-family: system-ui;
+    padding-left: 5vw;
+}
+
+#product2 {
+    background-image: url("https://andertons-productimages.imgix.net/431393-0149835377%20%284%29.jpg?auto=compress&bg=ffffff");
+    background-size: cover;
+    background-position: center;
+}
+
+#fender {
+    font-style: italic;
+    font-family: system-ui;
+    padding-left: 3vw;
+}
+
+#product3 {
+    background-image: url("https://andertons-productimages.imgix.net/490955-Jackson%20Concept%20Series%20Rhoads%20RR24%20HS%20Electric%20Guitar%20in%20White%20with%20Black%20Pinstripes%202.png?auto=compress&bg=ffffff");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jackson {
+    font-style: italic;
+    font-family: system-ui;
+    padding-left: 6vw;
+}
+
+.guitarprices {
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui;
+    font-size: xx-large;
+}
+
+.addtocart {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+}
+
+#buybut1 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#buybut2 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#buybut3 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#buybut1:hover {
+    background: #ddd;
+    color: black;
+  }
+#buybut2:hover {
+    background: #ddd;
+    color: black;
+  }
+#buybut3:hover {
+    background: #ddd;
+    color: black;
+  }
+#product1:hover {
+    opacity: 70%;
+    transition: ease-in-out;
+}
+
+#product2:hover {
+    opacity: 70%;
+    transition: ease-in-out;
+}
+
+#product3:hover {
+    opacity: 70%;
+    transition: ease-in-out;
+}
+
+#guitar1:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px black;
+    transition: ease-in-out;
+}
+
+#guitar2:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px black;
+    transition: ease-in-out;
+}
+
+#guitar3:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px black;
+    transition: ease-in-out;
+}
+
+
+
+.footer>* {
+    color: white;
+}
+
+.footer {
+    width: 100vw;
+    height: 18vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-right: 130vw;
+    }
+}
+#twitter {
+    border-radius: 1vw;
+}
+#social {
+    display: flex;
+    flex-direction: row;
+}
+
+#social>* {
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+}
+
+#footer-contact {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-mail {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-phone {
+    display: flex;
+    justify-content: center;
+}
+
+#social-connect {
+    font-size: larger;
+}

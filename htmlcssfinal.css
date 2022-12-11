@@ -1,0 +1,339 @@
+body {
+    margin: 0%;
+}
+
+.background {
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+}
+
+.topnav {
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+
+}
+
+#muso {
+    width: 22vw;
+}
+
+#musoimg {
+    width: 20vw;
+    padding-left: 7vw;
+    padding-top: 1vh;
+}
+
+#search {
+    background-color: white;
+    color: black;
+    width: 18%;
+    height: 60%;
+    margin-left: 15%;
+    margin-right: 3vw;
+    border-radius: 2vw;
+    font-size: x-large;
+    padding-left: 1vw;
+}
+
+#signupman {
+    padding-top: 1vh;
+    width: 4vw;
+    height: 8vh;
+}
+
+.topnav a {
+    color: wheat;
+    text-align: center;
+    padding: 2%;
+    font-size: x-large;
+    text-decoration: none;
+
+}
+
+.topnav a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+#myVideo {
+    position: absolute;
+    bottom: -28vh;
+    width: -webkit-fill-available;
+}
+
+.content {
+    position: absolute;
+    bottom: -28vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100vw;
+    padding: 2vw;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+#content {
+    width: 100vw;
+    height: 200vh;
+    background-color: black
+}
+
+.firstrow {
+    display: flex;
+    justify-content: space-around;
+    height: 53vh;
+    padding-top: 4vh;
+}
+
+.firstrow>* {
+    background-color: white;
+    padding: 10%;
+}
+
+#firstrowtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0;
+    font-size: xx-large;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+
+}
+
+#hr1 {
+    color: white;
+    width: 80vw;
+    margin: 0;
+
+}
+
+#guitar {
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#perc {
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#piano {
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#bass {
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#dj {
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#studio {
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.firstwrite {
+    display: flex;
+    justify-content: space-around;
+}
+
+#product1 {
+    background-image: url("https://guitar.com/wp-content/uploads/2020/09/GM386-rev-Fender-Road-Worn-60s-Stratocaster-05@2160x2700.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+#product2 {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/56d8690bd210b825aa8ed357/1643622037421-M5MZS5TVGFJNWQB4XWWU/dw%2Bwebsite.jpg?format=2500w");
+    background-size: cover;
+    background-position: center;
+}
+
+#product3 {
+    background-image: url("https://dynamix-audio.com/wp-content/uploads/2019/11/Grand-Piano.jpg.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#product1:hover {
+    opacity: 70%;
+    box-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#product2:hover {
+    opacity: 70%;
+    box-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#product3:hover {
+    opacity: 70%;
+    box-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#product4 {
+    background-image: url("https://cdn.basschat.co.uk/monthly_2020_05/bc8adabafe493dccecbee088165cb1ec.jpg.17cdd836a6208640d9d93e393abf99b6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#product5 {
+    background-image: url("https://vinesoftheyarravalley.com.au/wp-content/uploads/2020/06/Equipment-of-a-Wedding-DJ-1-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#product6 {
+    background-image: url("https://www.careersinmusic.com/wp-content/uploads/2020/11/1428730yearsinthemaking-desk-1086-780_4_55731.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#product4:hover {
+    opacity: 70%;
+    box-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#product5:hover {
+    opacity: 70%;
+    box-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#product6:hover {
+    opacity: 70%;
+    box-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#guitar:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#perc:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#piano:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#bass:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#dj:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+#studio:hover {
+    opacity: 70%;
+    text-shadow: 4px 4px 4px white;
+    transition: ease-in-out;
+}
+
+.footer {
+    width: 100vw;
+    height: 18vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-right: 130vw;
+    }
+}
+
+#twitter {
+    border-radius: 1vw;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+}
+
+#social>* {
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+}
+
+#footer-contact {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-mail {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-phone {
+    display: flex;
+    justify-content: center;
+}
+
+#social-connect {
+    font-size: larger;
+}

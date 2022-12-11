@@ -1,0 +1,120 @@
+body {
+    margin: 0%;
+}
+
+.background {
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+}
+
+.topnav {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+#muso {
+    width: 22vw;
+}
+#musoimg {
+    width: 20vw;
+    padding-left: 7vw;
+    padding-top: 1vh;
+}
+#search {
+    background-color: white;
+    color: black;
+    width: 18%;
+    height: 60%;
+    margin-left: 15%;
+    margin-right: 3vw;
+    border-radius: 2vw;
+    font-size: x-large;
+    padding-left: 1vw;
+}
+#signupman {
+    width: 4vw;
+    height: 7vh;
+    padding-top: 1vh;
+    background-image: url("https://www.pngfind.com/pngs/m/63-631239_login-png-login-icon-png-transparent-png.png");
+    width: 4vw;
+    height: 7vh;
+} 
+.topnav a {
+    color: wheat;
+    text-align: center;
+    padding: 2%;
+    font-size: x-large;
+    text-decoration: none;
+
+}
+
+.topnav a:hover {
+    background-color: wheat;
+    color: black;
+}
+#signinbut {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.footer>* {
+    color: white;
+}
+.footer {
+    width: 100vw;
+    height: 18vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-right: 130vw;
+    }
+}
+#twitter {
+    border-radius: 1vw;
+}
+#social {
+    display: flex;
+    flex-direction: row;
+}
+#social>* {
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+}
+
+#footer-contact {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-mail {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-phone {
+    display: flex;
+    justify-content: center;
+}
+
+#social-connect {
+    font-size: larger;
+}
