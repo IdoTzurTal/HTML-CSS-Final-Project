@@ -211,6 +211,10 @@ body {
     justify-content: space-around;
 }
 
+.firstwrite>* {
+    text-decoration: none;
+}
+
 #product1 {
     background-image: url("https://guitar.com/wp-content/uploads/2020/09/GM386-rev-Fender-Road-Worn-60s-Stratocaster-05@2160x2700.jpg");
     background-size: cover;
