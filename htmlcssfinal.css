@@ -14,12 +14,25 @@ body {
     padding-bottom: 15vh;
 }
 
+@media screen and (max-width: 412px) {
+    .background {
+        width: 101vw;
+    }
+}
+
 .topnav {
     background-color: black;
     height: 12vh;
     display: flex;
     align-items: center;
+}
 
+@media screen and (max-width: 412) {
+    .topnav {
+        width: 101vw;
+        flex-direction: column;
+        padding-top: 5vh;
+    }
 }
 
 #muso {
@@ -44,6 +57,13 @@ body {
     padding-left: 1vw;
 }
 
+@media screen and (max-width: 412px) {
+    #search {
+        width: 60%;
+        margin-left: 5%;
+    }
+}
+
 #signupman {
     padding-top: 1vh;
     width: 4vw;
@@ -57,6 +77,12 @@ body {
     font-size: x-large;
     text-decoration: none;
 
+}
+
+@media screen and (max-width: 412px) {
+    .topnav a {
+        font-size: xx-large;
+    }
 }
 
 .topnav a:hover {
@@ -98,6 +124,13 @@ body {
     width: 100vw;
     height: 200vh;
     background-color: black
+}
+
+@media screen and (max-width: 412) {
+    #content {
+        width: 101vw;
+        height: 193vh;
+    }
 }
 
 .firstrow {
@@ -298,9 +331,11 @@ body {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 412px) {
     .footer {
-        padding-right: 130vw;
+        height: 22vh;
+        flex-direction: column;
+        padding-top: 1vh;
     }
 }
 
