@@ -14,9 +14,10 @@ body {
     padding-bottom: 15vh;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 768px) {
     .background {
         width: 101vw;
+        height: 48vh;
     }
 }
 
@@ -27,11 +28,12 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 412) {
+@media screen and (max-width: 768px) {
     .topnav {
         width: 101vw;
-        flex-direction: column;
-        padding-top: 5vh;
+        flex-direction: row;
+        padding-top: 0vh;
+        padding-left: 2vw;
     }
 }
 
@@ -44,7 +46,12 @@ body {
     padding-left: 7vw;
     padding-top: 1vh;
 }
-
+@media screen and (max-width: 768px) {
+    #musoimg {
+    padding-top: 2vh;
+    padding-left: 0vw;
+    }
+}
 #search {
     background-color: white;
     color: black;
@@ -57,10 +64,9 @@ body {
     padding-left: 1vw;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 768px) {
     #search {
-        width: 60%;
-        margin-left: 5%;
+        margin-left: 2%;
     }
 }
 
@@ -69,7 +75,11 @@ body {
     width: 4vw;
     height: 8vh;
 }
-
+@media screen and (max-width: 768px) {
+    #signupman {
+        width: 7vw;
+    }
+}
 .topnav a {
     color: wheat;
     text-align: center;
@@ -79,9 +89,9 @@ body {
 
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 768px) {
     .topnav a {
-        font-size: xx-large;
+        font-size: medium;
     }
 }
 
@@ -95,7 +105,11 @@ body {
     bottom: -28vh;
     width: -webkit-fill-available;
 }
-
+@media screen and (max-width: 768px) {
+    #myVideo {
+        bottom: 20vh;
+    }      
+}
 .content {
     position: absolute;
     bottom: -28vh;
@@ -104,7 +118,12 @@ body {
     width: 100vw;
     padding: 2vw;
 }
-
+@media screen and (max-width: 768px) {
+    .content {
+    bottom: 20vh;
+    padding-left: 4vw;
+    }
+}
 #myBtn {
     width: 200px;
     font-size: 18px;
@@ -126,7 +145,7 @@ body {
     background-color: black
 }
 
-@media screen and (max-width: 412) {
+@media screen and (max-width: 768px) {
     #content {
         width: 101vw;
         height: 193vh;
@@ -335,14 +354,17 @@ body {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 768px) {
     .footer {
-        height: 22vh;
-        flex-direction: column;
-        padding-top: 1vh;
+        width: 102vw;
     }
 }
-
+@media screen and (max-width: 768px) {
+    .footerinfo {
+    font-size: small;
+    padding-right: 2vw;
+    }
+}
 #twitter {
     border-radius: 1vw;
 }
@@ -375,4 +397,16 @@ body {
 
 #social-connect {
     font-size: larger;
+}
+@media screen and (max-width: 768px) {
+    #social-connect {
+        /* font-size: larger; */
+        font-size: small;
+      }
+}
+@media screen and (max-width: 768px) {
+    .footerinfo {
+    font-size: small;
+    padding-right: 2vw;
+    }
 }
